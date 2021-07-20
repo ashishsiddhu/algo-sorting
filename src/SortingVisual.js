@@ -171,8 +171,8 @@ function SortingVisual(props) {
             <button id='merge-sort' onClick={(data) => randomArray()}>Reset Array</button>
             <button id='merge-sort' onClick={(data) => mergeShortArray()}>Merge Sort Array</button>
             <button id='merge-sort' onClick={(data) => uniqueArray()}>Unique Array</button>
-            <button id='merge-sort' onClick={(data) => binarySearch(array.length)}>Binary Search</button>
-            <button id='merge-sort' onClick={(data) => binarySearchAllArray(array.length)}>Binary Search All array</button>
+            {/*<button id='merge-sort' onClick={(data) => binarySearch(array.length)}>Binary Search</button>
+            <button id='merge-sort' onClick={(data) => binarySearchAllArray(array.length)}>Binary Search All array</button>*/}
             <div className="array-visual">{array && arrayVisual()}</div>
         </div>
     )
